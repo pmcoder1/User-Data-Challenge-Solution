@@ -7,6 +7,7 @@
 //
 
 #import "RDDViewController.h"
+#import "RDDUserData.h"
 
 @interface RDDViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.users = [RDDUserData users];
+    NSLog(@"%@",self.users);
 }
 
 - (void)didReceiveMemoryWarning

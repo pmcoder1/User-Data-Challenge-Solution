@@ -10,4 +10,6 @@
 
 @interface RDDViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *users;
+
 @end

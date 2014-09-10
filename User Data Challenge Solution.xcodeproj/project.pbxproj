@@ -21,6 +21,11 @@
 		6EE1EF3019BFE76600B88C23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE1EF1219BFE76600B88C23 /* UIKit.framework */; };
 		6EE1EF3819BFE76600B88C23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1EF3619BFE76600B88C23 /* InfoPlist.strings */; };
 		6EE1EF3A19BFE76600B88C23 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1EF3919BFE76600B88C23 /* User_Data_Challenge_SolutionTests.m */; };
+		6EE1EF4519BFE78300B88C23 /* RDDUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1EF4419BFE78300B88C23 /* RDDUserData.m */; };
+		6EE3B0D219BFEF2E0009589A /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0CE19BFEF2E0009589A /* person1.jpeg */; };
+		6EE3B0D319BFEF2E0009589A /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0CF19BFEF2E0009589A /* person2.jpeg */; };
+		6EE3B0D419BFEF2E0009589A /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0D019BFEF2E0009589A /* person3.jpg */; };
+		6EE3B0D519BFEF2E0009589A /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0D119BFEF2E0009589A /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		6EE1EF3519BFE76600B88C23 /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6EE1EF3719BFE76600B88C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EE1EF3919BFE76600B88C23 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6EE1EF4319BFE78300B88C23 /* RDDUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDUserData.h; sourceTree = "<group>"; };
+		6EE1EF4419BFE78300B88C23 /* RDDUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDUserData.m; sourceTree = "<group>"; };
+		6EE3B0CE19BFEF2E0009589A /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		6EE3B0CF19BFEF2E0009589A /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		6EE3B0D019BFEF2E0009589A /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		6EE3B0D119BFEF2E0009589A /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,8 @@
 		6EE1EF0219BFE76600B88C23 = {
 			isa = PBXGroup;
 			children = (
+				6EE1EF4319BFE78300B88C23 /* RDDUserData.h */,
+				6EE1EF4419BFE78300B88C23 /* RDDUserData.m */,
 				6EE1EF1419BFE76600B88C23 /* User Data Challenge Solution */,
 				6EE1EF3319BFE76600B88C23 /* User Data Challenge SolutionTests */,
 				6EE1EF0D19BFE76600B88C23 /* Frameworks */,
@@ -126,6 +139,10 @@
 		6EE1EF1519BFE76600B88C23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EE3B0CE19BFEF2E0009589A /* person1.jpeg */,
+				6EE3B0CF19BFEF2E0009589A /* person2.jpeg */,
+				6EE3B0D019BFEF2E0009589A /* person3.jpg */,
+				6EE3B0D119BFEF2E0009589A /* person4.jpeg */,
 				6EE1EF1619BFE76600B88C23 /* User Data Challenge Solution-Info.plist */,
 				6EE1EF1719BFE76600B88C23 /* InfoPlist.strings */,
 				6EE1EF1A19BFE76600B88C23 /* main.m */,
@@ -229,9 +246,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE3B0D419BFEF2E0009589A /* person3.jpg in Resources */,
+				6EE3B0D219BFEF2E0009589A /* person1.jpeg in Resources */,
 				6EE1EF2719BFE76600B88C23 /* Images.xcassets in Resources */,
 				6EE1EF1919BFE76600B88C23 /* InfoPlist.strings in Resources */,
+				6EE3B0D519BFEF2E0009589A /* person4.jpeg in Resources */,
 				6EE1EF2219BFE76600B88C23 /* Main.storyboard in Resources */,
+				6EE3B0D319BFEF2E0009589A /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +274,7 @@
 				6EE1EF1B19BFE76600B88C23 /* main.m in Sources */,
 				6EE1EF1F19BFE76600B88C23 /* RDDAppDelegate.m in Sources */,
 				6EE1EF2519BFE76600B88C23 /* RDDViewController.m in Sources */,
+				6EE1EF4519BFE78300B88C23 /* RDDUserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +479,7 @@
 				6EE1EF3F19BFE76600B88C23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EE1EF4019BFE76600B88C23 /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +488,7 @@
 				6EE1EF4219BFE76600B88C23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
