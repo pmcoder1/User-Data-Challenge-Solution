@@ -28,7 +28,7 @@
                            @USER_EMAIL:@"bubby@email.com",
                            @USER_PASS:@"bubbyPass",
                            @USER_AGE:@25,
-                           @USER_IMAGE:[UIImage imageNamed:@"person3.jpg"]};
+                           @USER_IMAGE:[UIImage imageNamed:@"person3.jpeg"]};
     
     NSDictionary *user4= @{@USER_NAME: @"Babby",
                            @USER_EMAIL:@"babby@email.com",

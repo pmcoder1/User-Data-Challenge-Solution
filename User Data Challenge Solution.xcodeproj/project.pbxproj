@@ -24,7 +24,7 @@
 		6EE1EF4519BFE78300B88C23 /* RDDUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1EF4419BFE78300B88C23 /* RDDUserData.m */; };
 		6EE3B0D219BFEF2E0009589A /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0CE19BFEF2E0009589A /* person1.jpeg */; };
 		6EE3B0D319BFEF2E0009589A /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0CF19BFEF2E0009589A /* person2.jpeg */; };
-		6EE3B0D419BFEF2E0009589A /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0D019BFEF2E0009589A /* person3.jpg */; };
+		6EE3B0D419BFEF2E0009589A /* person3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0D019BFEF2E0009589A /* person3.jpeg */; };
 		6EE3B0D519BFEF2E0009589A /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EE3B0D119BFEF2E0009589A /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +62,7 @@
 		6EE1EF4419BFE78300B88C23 /* RDDUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDUserData.m; sourceTree = "<group>"; };
 		6EE3B0CE19BFEF2E0009589A /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
 		6EE3B0CF19BFEF2E0009589A /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
-		6EE3B0D019BFEF2E0009589A /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		6EE3B0D019BFEF2E0009589A /* person3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpeg; sourceTree = "<group>"; };
 		6EE3B0D119BFEF2E0009589A /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 			children = (
 				6EE3B0CE19BFEF2E0009589A /* person1.jpeg */,
 				6EE3B0CF19BFEF2E0009589A /* person2.jpeg */,
-				6EE3B0D019BFEF2E0009589A /* person3.jpg */,
+				6EE3B0D019BFEF2E0009589A /* person3.jpeg */,
 				6EE3B0D119BFEF2E0009589A /* person4.jpeg */,
 				6EE1EF1619BFE76600B88C23 /* User Data Challenge Solution-Info.plist */,
 				6EE1EF1719BFE76600B88C23 /* InfoPlist.strings */,
@@ -246,7 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE3B0D419BFEF2E0009589A /* person3.jpg in Resources */,
+				6EE3B0D419BFEF2E0009589A /* person3.jpeg in Resources */,
 				6EE3B0D219BFEF2E0009589A /* person1.jpeg in Resources */,
 				6EE1EF2719BFE76600B88C23 /* Images.xcassets in Resources */,
 				6EE1EF1919BFE76600B88C23 /* InfoPlist.strings in Resources */,
